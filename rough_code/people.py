@@ -1,5 +1,5 @@
-
-class People():
-    def __init__(self, title, f_name, l_name, dob, address):
-        pass
+import pyodbc
+"""
+Here I will practice importing info from python into an SQL table
+"""
 
