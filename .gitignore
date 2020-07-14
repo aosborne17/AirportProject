@@ -1,2 +1,5 @@
 /venv
 .idea
+secret_file.py
+welcome_interface.py
+customerinformation.py
