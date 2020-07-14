@@ -46,4 +46,9 @@ class Menu_interface():
             return passenger_information
             # all_passengers.append(passenger_information)
 
-    # def
+    def amend_existing_booking(self):
+        print("What part of your booking would you like to amend? ")
+        user_help = "\nInstructions:\n\n" + "-> Booking time [B]\n" + "-> view an existing booking [S]\n" + \
+                   "-> Amend an existing booking [E]\n" + "-> View Terms & Conditions of booking [H]\n" + "-> Count down to booking [A]\n" + \
+                   "-> For help type [H]\n"
+        print(user_help)
